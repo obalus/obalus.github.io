@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
 
-You can use the [editor on GitHub](https://github.com/obalus/obalus.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<div class="header-container jumbotron">
+    <div class="container">
+        <h1>Jekyll Template for Project Websites</h1>
+        <p>Simple and modern design for publishing blog posts, documentation and many more things for your project.
+          You can now clone and start to create a website for your project like this one.</p>
+        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Learn more</a></p>
+    </div>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+<div class="container">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="row">
+        <div class="col-md-6">
+            <h2 class="header-light regular-pad">What is Jekyll?</h2>
+            <blockquote>
+              <p>Jekyll is a simple, blog-aware, static site generator. It takes a template
+              directory containing raw text files in various formats, runs it through
+              a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>)
+              and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and
+              spits out a complete, ready-to-publish static website suitable
+              for serving with your favorite web server. Jekyll also happens to be the engine
+              behind <a href="https://pages.github.com">GitHub Pages</a>, which means you can use Jekyll
+              to host your project’s page, blog, or website from GitHub’s servers <strong>for
+              free</strong>.</p>
+            </blockquote>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="img/jekyll-dark.png" alt="" class="img-responsive">
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <hr>
 
-# Header 1
-## Header 2
-### Header 3
+    <div class="row">
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-pencil" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Easy to install and publish</h3>
+            <p>Get started by clonening source into GitHub account of your project. Thanks to <a href="https://pages.github.com">GitHub Pages</a>,
+              it will be automatically compiled and publsihed under your project's subdomain on `github.io`.
+            </p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-cogs" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Modular Styling and Templating</h3>
+            <p>This template uses <a href="https://github.com/twbs/bootstrap-sass">bootstrap-sass</a> along with <a href="https://bootswatch.com/">Bootwatch themes</a>.
+            You can change the theme or write your custom by overwriting bootstrap sass variables for different color set, font options, etc.</p>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="text-center"><i class="fa fa-code-fork" aria-hidden="true"></i></h1>
+            <h3 class="text-center">Git based source control</h3>
+            <p>Leverege from Git version control system by
+              maintaining your documentation along with the source code; publish the page when you merge to the master branch.</p>
+        </div>
+    </div>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/obalus/obalus.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</div>
